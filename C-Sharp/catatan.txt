@@ -1,0 +1,6 @@
+Oke jadi iki onok bahasa jowo e dikit-dikit, dan isiya mengenai C# kabeh, sek php terpisah dari repositiory iki 1 repositiory, 1 bahasa pemrograman, link nya untuk publik jadi ya iso dibuka2 tiap hari, tiap waktu, tiap kegabutan jadi ya sa karep mu dewe, gratis koq santuy
+Oke ora usah basa-basi langsung mulai aj
+Kata pengantar : (Bukan bermaksud menyindir) ---> Lulus matkul PBO dan Basdat berarti bisa ngambil PAD, jadi selamat yg udah lulus dan bisa ngambil mata kuliah satu ini, yg belum jgn patah semangat, karena masih ada kesempatan untuk berubah kearah yg lebih baik, tetap semangat
+Untuk tutor nya ada di dalam file, jadi aku g perlu ngetik2 gajelas di note ini, aneh emg
+Oh iya btw siapin microsoft visual studio untuk membuka file tersebut, oke, mantap 👍
+Gudlak y, 謝謝.
