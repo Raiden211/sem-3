@@ -1,0 +1,6 @@
+Cara menjalankan file php
+1. Memiliki xampp (Harus) 
+2. Buka xampp ---> Nyalakan apache dan mysql 
+3. Save file di c:/xampp/htdocs (Biasanya), tergantung htdocs mu dimana
+4. Jalankan localhost di website, jan lupa pakai nama direktori file ----> localhost/nama folder(kalau ada)/data.php
+5. Dah itu aj cara e :v
