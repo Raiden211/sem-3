@@ -1,4 +1,4 @@
 ini buat form handling
 form handling digunakan untuk menangani form tertentu
 ada 2 cara yaitu pakai get dan post cuman
-mending kalau untuk login register pakai post jangan pakai get
+mending kalau untuk login register pakai post jangan pakai get, resiko soalnya
