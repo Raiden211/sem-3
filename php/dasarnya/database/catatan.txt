@@ -1,0 +1,1 @@
+Ini untuk database, session, dan cookie nya :D
