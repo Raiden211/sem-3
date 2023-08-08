@@ -1,4 +1,9 @@
-create database nyoba;
+drop database if exists nyoba;
+create database if exists nyoba;
+
+drop table if exists label1;
+drop table if exists label2;
+drop table if exists label3;
 
 CREATE TABLE label1 (
     `id` INT NOT NULL AUTO_INCREMENT,
@@ -14,12 +19,13 @@ create table label2 (
     `nilai1` int,
     `nilai2` int,
     `na` int,
+    `grade` varchar(5),
     primary key(`id`)
 );
 
 create table label3 (
     `id` int not null auto_increment,
-    `name` varchar(255) not null,
-    `berat` int,
+    `nama` varchar(255) not null,
+    `usia` int,
     primary key (`id`)
 );
