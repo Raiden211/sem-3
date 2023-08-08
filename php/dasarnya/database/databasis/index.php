@@ -1,11 +1,6 @@
 // ini untuk tutor database nya
 <?php 
     include 'config.php';
-    function hitungna($a,$b)
-    {
-        $res = (($a*4/10)+($b*6/10));
-        return $res;
-    }
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +11,9 @@
     <title>Coba</title>
 </head>
 <body>
+    <p>Tutor nya ada di halaman berikut : </p>
+    <a href="index2.php">Tutor2</a>
+    <a href="index3.php">Tutor3</a>
     // cara 1 = cara tambah biasa (Awal mulanya)
     <form action="#" method="post">
         <p>Nama : </p> 
@@ -27,20 +25,27 @@
         <br>
         <button type="submit" name="add1">Submit data</button>
         <?php 
-            $nama = $_POST['nama1'];
-            $stok = $_POST['stok'];
-            $harga = $_POST['harga'];
+        $nama = $_POST['nama1'];
+        $stok = $_POST['stok'];
+        $harga = $_POST['harga'];
+        if ($nama == "" || $stok == "" || $harga == "")
+        {
+            echo "Onok seng kosong :v";
+        }
+        else 
+        {
             $sql = "insert into label1 (nama,stok,harga) 
             values ('$nama','$stok','$harga')";
             $query = mysqli_query($conn,$sql);
             if($query)
             {
-                echo "success";
+                echo "Data berhasil masuk";
             }
             else 
             {
-                echo "error";
+                echo "Ada yang salah";
             }
+        }
         ?>
     </form>
     // result 
@@ -67,6 +72,5 @@
         }
     ?>
     </table>
-    // tambah data dengan function untuk menghitung nilai akhir dari data yang bersangkutan
 </body>
 </html>
