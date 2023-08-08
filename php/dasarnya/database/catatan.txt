@@ -1,3 +1,4 @@
 Ini untuk database, session, dan cookie nya 
 Ada 2 file nanti, yg satu buat login register, yg satunya buat normal aj
 Kira-kira butuh waktu yg agak lama baru lanjut chapter 4 :D
+Update masih ada, jadi sabar aj untuk hasil fix nya
