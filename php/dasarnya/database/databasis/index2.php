@@ -16,7 +16,7 @@
 </head>
 <body>
     <p>Tutor nya ada di halaman berikut : </p>
-    <a href="index1.php">Tutor1</a>
+    <a href="index.php">Tutor1</a>
     <a href="index3.php">Tutor3</a>
 <form action="#" method="post">
         <p>Nama : </p> 
