@@ -12,8 +12,8 @@
 </head>
 <body>
     <p>Tutor nya ada di halaman berikut : </p>
+    <a href="index.php">Tutor1</a>
     <a href="index2.php">Tutor2</a>
-    <a href="index3.php">Tutor3</a>
     <form action="#" method="post">
         <p>Nama : </p> 
         <input type="text" name="nama"> <br>
