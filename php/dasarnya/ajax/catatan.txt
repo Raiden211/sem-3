@@ -1,0 +1,1 @@
+inilah cara mendapatkan data tanpa reloading halaman 
